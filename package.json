@@ -1,0 +1,40 @@
+{
+  "name": "matthew-site",
+  "version": "1.0.0",
+  "description": "This is a repository that I created to help others develop their websites in React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "start": "node ./server/index.js",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^3.12.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pa87901/repoStarterKit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pa87901/repoStarterKit/issues"
+  },
+  "homepage": "https://github.com/pa87901/repoStarterKit#readme"
+}

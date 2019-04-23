@@ -5,6 +5,7 @@ class HomePage extends Component {
     return (
       <div>
         Home page
+        <i class="fas fa-frog"></i>
       </div>
     )
   }

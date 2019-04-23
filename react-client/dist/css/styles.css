@@ -22,4 +22,17 @@ footer {
   height: 50px;
   background-color: black;
   color: white;
+  text-align: center;
+}
+
+.svg-inline--fa {
+  margin: 4px;
+}
+
+#bootstrap-override {
+  color: white;
+}
+
+#bootstrap-override:hover {
+  color: #b2b0b0;
 }

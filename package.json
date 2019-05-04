@@ -32,9 +32,12 @@
     "react-fontawesome": "^1.6.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
+    "url-loader": "^1.1.2",
     "webpack": "^3.12.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "file-loader": "^3.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pa87901/repoStarterKit.git"

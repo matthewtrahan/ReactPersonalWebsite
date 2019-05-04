@@ -16,6 +16,19 @@ header {
   float: right;
 }
 
+/* home page style */
+#home-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+/* end home page style */
+
+/* footer style */
 footer {
   display: block;
   width: 100%;
@@ -24,6 +37,11 @@ footer {
   color: white;
   text-align: center;
 }
+
+#bootstrap-override:hover {
+  color: #b2b0b0;
+}
+/* end footer style */
 
 .svg-inline--fa {
   margin: 4px;

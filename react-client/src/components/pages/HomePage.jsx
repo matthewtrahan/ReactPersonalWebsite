@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import myImage from './../../../../resources/me.jpg'
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        Home page
-        <i class="fas fa-frog"></i>
+        <img id="home-img" src={myImage} alt={"myImage"}/>
       </div>
     )
   }

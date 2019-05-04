@@ -17,7 +17,8 @@ class HomePage extends Component {
         </div>
         <img id="home-img" src={myImage} alt={"myImage"}/>
         <div id="main-text">
-          
+          <h4>The University of Texas at Austin -  Class of 2017</h4>
+          <h5>Feel free to check out my resumé or connect with me on LinkedIn.</h5>
 
         </div>
         <div id="technologies">

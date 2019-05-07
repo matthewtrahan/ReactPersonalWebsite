@@ -21,6 +21,10 @@ header {
   border-radius: 0px;
 }
 
+#navitem-override {
+  text-align: right;
+}
+
 /* home page style */
 #title {
   text-align: center;

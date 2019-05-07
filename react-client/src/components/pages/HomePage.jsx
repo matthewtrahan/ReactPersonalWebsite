@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import myImage from './../../../../resources/me.jpg'
+import myImage from './../../../../resources/me.png'
 import javaImage from './../../../../resources/java.png'
 import pythonImage from './../../../../resources/python.png'
 import swiftImage from './../../../../resources/swift.png'
@@ -12,9 +12,9 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <div id="title">
+        {/* <div id="title">
           <h1>Matthew Trahan</h1>
-        </div>
+        </div> */}
         <img id="home-img" src={myImage} alt={"myImage"}/>
         <div id="main-text">
           <h4>The University of Texas at Austin -  Class of 2017</h4>

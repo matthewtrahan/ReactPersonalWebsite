@@ -4,7 +4,6 @@ import javaImage from './../../../../resources/java.png'
 import pythonImage from './../../../../resources/python.png'
 import swiftImage from './../../../../resources/swift.png'
 import htmlImage from './../../../../resources/html.png'
-// import cssImage from './../../../../resources/css.png'
 import reactImage from './../../../../resources/react.png'
 import sqlImage from './../../../../resources/sql.png'
 
@@ -12,9 +11,6 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        {/* <div id="title">
-          <h1>Matthew Trahan</h1>
-        </div> */}
         <img id="home-img" src={myImage} alt={"myImage"}/>
         <div id="main-text">
           <h4>The University of Texas at Austin -  Class of 2017</h4>

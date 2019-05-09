@@ -36,7 +36,7 @@ class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem id="navitem-override">
-                <NavLink id="bootstrap-override" href="/resources/MatthewTrahanResumePDF.pdf">Resumé</NavLink>
+                <NavLink id="bootstrap-override" href="/resume">Resumé</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
